@@ -10,22 +10,22 @@ function Contact() {
           <div>
             <p className="text-sm sm:text-base text-gray-500 mb-2">Email</p>
             <a 
-              href="mailto:[your email]" 
+              href="mailto:miaddonnell@gmail.com" 
               className="text-lg sm:text-xl text-accent hover:text-accent/80 transition-colors"
             >
-              [your email]
+              miaddonnell@gmail.com
             </a>
           </div>
           
           <div>
             <p className="text-sm sm:text-base text-gray-500 mb-2">LinkedIn</p>
             <a 
-              href="[LinkedIn link]" 
+              href="https://www.linkedin.com/in/miadonnell" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-lg sm:text-xl text-accent hover:text-accent/80 transition-colors"
             >
-              [LinkedIn link]
+              linkedin.com/in/miadonnell
             </a>
           </div>
         </div>

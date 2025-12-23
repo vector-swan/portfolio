@@ -17,14 +17,14 @@ function About() {
         {/* Contact Links */}
         <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8 text-sm sm:text-base">
           <a 
-            href="mailto:[your email]" 
+            href="mailto:miaddonnell@gmail.com" 
             className="text-accent hover:text-accent/80 transition-colors"
           >
             Email
           </a>
           <span className="hidden sm:inline text-gray-300">|</span>
           <a 
-            href="[LinkedIn link]" 
+            href="https://www.linkedin.com/in/miadonnell" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-accent hover:text-accent/80 transition-colors"
