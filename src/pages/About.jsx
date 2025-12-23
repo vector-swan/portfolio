@@ -9,9 +9,20 @@ function About() {
 
         {/* Bio Section */}
         <div className="mb-12 sm:mb-16">
-          <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-6">
-            [Bio text will be provided]
-          </p>
+          <div className="text-base sm:text-lg text-gray-600 leading-relaxed space-y-6">
+            <p>
+              I'm a Senior Product Designer with 10+ years of experience, focused on AI-first design since 2023.
+            </p>
+            <p>
+              At Workday, I led the creation of GenAI Studio, established company-wide AI/UX standards, and designed cross-platform patterns for multi-agent orchestration across web, mobile, Slack, and Microsoft Teams.
+            </p>
+            <p>
+              I believe the future of UX lies in making AI understandable, trustworthy, and genuinely useful through thoughtful systems design and human-centered AI interactions.
+            </p>
+            <p>
+              When I'm not designing, you'll find me at a Toastmasters meeting, taking a ballet class, or hiking with my husband and our toy poodle.
+            </p>
+          </div>
         </div>
 
         {/* Contact Links */}
