@@ -4,15 +4,18 @@ function Homepage() {
   const projects = [
     {
       title: 'Multi-Surface Agent Design',
-      description: 'Design system for AI agents across web, mobile, Slack, Teams'
+      description: 'Design system for AI agents across web, mobile, Slack, Teams',
+      link: '/multi-surface-agent'
     },
     {
       title: 'GenAI Text Framework',
-      description: "Workday's first generative AI product feature"
+      description: "Workday's first generative AI product feature",
+      link: '/genai-framework'
     },
     {
       title: 'Prompt Engineering Studio',
-      description: 'Internal AI tooling for product teams'
+      description: 'Internal AI tooling for product teams',
+      link: '/prompt-studio'
     }
   ]
 
@@ -39,6 +42,7 @@ function Homepage() {
               key={index}
               title={project.title}
               description={project.description}
+              link={project.link}
             />
           ))}
         </div>
